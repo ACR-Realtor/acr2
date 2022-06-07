@@ -1,0 +1,174 @@
+body {
+
+  margin: 0;
+  text-align: center;
+  /*font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;*/
+  font-family: 'Abhaya Libre', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*5.625em is times 16px you can also do percentage 562.5% use rem to ignore parent fonts (1em=16px) use 5.625rem to set a size of text permataly*/
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  /* Top Right Bottom Left. Auto means center*/
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: normal;
+  /*font-weight means the thickness of the letters*/
+}
+
+p {
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Shadows Into Light', cursive;
+}
+hr{
+  border-top: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  margin: 0 25px 0 25px;
+  color: #11999E;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+/* hover means when the mouse is hovering the text*/
+.topcont {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.a {
+  width: 20%;
+  border-radius: 50%;
+}
+.profile{
+  width:50%;
+  margin: 0 auto 50px auto;
+  line-height: 1.5; /* a line heigth doesn't need a unit like px*/
+}
+.middle-container {
+margin-top: 50px;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height:100px;
+  padding-top: 50px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.codingimg{
+  width:30%;
+  border-radius: 50%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#black {
+  background-color: black;
+  width: 20%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.p {
+  background-color: black;
+  width: 46%;
+  border-radius: 10%;
+  float: right;
+  /* float to wrapped text aroung an imgage and clear to clear a text wrapped around an images*/
+  margin-left: 30px;
+}
+
+.b {
+  width: 30%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  /* auto centers the txt and pictures inside divs */
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+}
+.contact-me{
+  width:40%;
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+}
+.ap{
+  margin-top: 40px;
+}
+.btn {
+
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bpp{
+  margin-top: 30px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
